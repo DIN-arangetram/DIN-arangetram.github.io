@@ -77,6 +77,21 @@ img {
   font-size: 1.05rem;
 }
 
+.subtitle-with-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.subtitle-date {
+  color: var(--gold);
+  font-size: 1.05rem;
+  text-align: right;
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -219,9 +234,10 @@ img {
 }
 
 .hero-intro p {
-  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
   margin: 0 auto;
-  max-width: 42rem;
+  margin-bottom: 2rem;
+  max-width: 50rem;
 }
 
 .poem-text {
