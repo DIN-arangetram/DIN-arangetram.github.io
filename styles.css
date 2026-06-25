@@ -92,6 +92,11 @@ img {
   text-align: right;
 }
 
+.name-highlight {
+  color: var(--gold);
+  font-weight: 700;
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
